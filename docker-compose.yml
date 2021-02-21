@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  client:
+    image: nginx
+    ports:
+      - 1212:80
+    volumes:
+      - ./:/usr/share/nginx/html
+    container_name: luissucuccom
